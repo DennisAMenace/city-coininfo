@@ -1,4 +1,4 @@
-coininfo
+city-coininfo
 ========
 
 [![build status](https://api.travis-ci.org/cryptocoinjs/coininfo.svg)](http://travis-ci.org/cryptocoinjs/coininfo)
@@ -6,18 +6,22 @@ coininfo
 JavaScript component for crypto currency specific information such as version numbers, DNS seeds, etc.
 Works in Node.js and the browser.
 
+Fork
+----
+
+This library is a fork of the original [coininfo](https://github.com/cryptocoinjs/coininfo) with support added for City Coin.
 
 Installation
 ------------
 
-    npm i coininfo
+    npm i city-coininfo
 
 
 Usage
 -----
 
 ```js
-var coininfo = require('coininfo')
+var coininfo = require('city-coininfo')
 
 console.dir(coininfo('LTC')) //use LTC-TEST for testnet
 // =>
@@ -46,7 +50,7 @@ Want to Use With Bitcore or bitconjs-lib?
 **bitcoinjs-lib example:**
 
 ```js
-var coininfo = require('coininfo')
+var coininfo = require('city-coininfo')
 var bitcoin = coininfo.bitcoin.main
 var bitcoinBitcoinJSLib = bitcoin.toBitcoinJS()
 ```
@@ -54,7 +58,7 @@ var bitcoinBitcoinJSLib = bitcoin.toBitcoinJS()
 **Bitcore example:**
 
 ```js
-var coininfo = require('coininfo')
+var coininfo = require('city-coininfo')
 var bitcoin = coininfo.bitcoin.main
 var bitcoinBitcoreLib = bitcoin.toBitcore()
 ```
@@ -65,7 +69,7 @@ Pull requests?
 
 Follow the canonical example:
 
-https://github.com/cryptocoinjs/coininfo/blob/master/lib/coins/btc.js
+https://github.com/CityChainFoundation/city-coininfo/blob/master/lib/coins/btc.js
 
 
 License
