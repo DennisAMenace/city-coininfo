@@ -1,3 +1,31 @@
+5.1.0 / 2019-05-31
+------------------
+
+- add Ravencoin (#87)
+
+5.0.0 / 2019-05-28
+------------------
+
+- Switch Digibyte scripthash version byte. The obsolete `0x03` byte is now `scripthash2`, and the newer `0x3f` (S-addresses) byte is the default.
+
+4.5.0 / 2019-04-30
+------------------
+
+- add bech32 prefixes (#85)
+
+4.4.1 / 2019-04-08
+------------------
+
+- update DNS seed for BTC (#84)
+
+4.4.0 / 2019-02-15
+------------------
+
+- add bip32 for LTC (#64)
+- add field messagePrefix (#65)
+- fix undefined bip32 error (#66)
+- fix Peercoin values (#79)
+
 4.3.0 / 2018-08-15
 ------------------
 

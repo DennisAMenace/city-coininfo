@@ -1,6 +1,6 @@
 {
-  "name": "city-coininfo",
-  "version": "5.0.0",
+  "name": "coininfo",
+  "version": "5.1.0",
   "description": "JavaScript component for crypto currency specific information.",
   "license": "MIT",
   "keywords": [
@@ -20,15 +20,14 @@
     "monacoin",
     "zcash",
     "vertcoin",
-    "qtum",
-    "city"
+    "qtum"
   ],
   "devDependencies": {
     "standard": "*",
-    "tape": "^4.10.1"
+    "tape": "^4.8.0"
   },
   "repository": {
-    "url": "https://github.com/CityChainFoundation/city-coininfo",
+    "url": "https://github.com/cryptocoinjs/coininfo",
     "type": "git"
   },
   "main": "./lib/coininfo.js",
